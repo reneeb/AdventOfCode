@@ -1,0 +1,1 @@
+raku -e 'lines().combinations(3).grep({.[0]+.[1]+.[2]==2020}).map({.[0]*.[1]*.[2] }).say'
